@@ -70,11 +70,9 @@ def welcome():
         global Run
         num = input(Welcome)
         if num == "1":
-            selectEnglish()
-            break
+            rice()
         elif num == "2":
-            selectJapanese()
-            break
+            noodles()
         elif num == "3":
             print("Exiting...")
             Run = False
